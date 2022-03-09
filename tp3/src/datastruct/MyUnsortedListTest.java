@@ -57,6 +57,7 @@ public class MyUnsortedListTest {
 
         myList.append(6);
         myList.append(7);
+        assertEquals(myList.size(), 7);
         myList.append(8);
         myList.append(9);
         assertEquals(myList.size(), 9);
